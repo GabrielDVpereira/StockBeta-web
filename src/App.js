@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
-import SignIn from "./pages/SignIn";
-import SignUp from "./pages/SignUp";
+import React from "react";
+import Routes from "./routes";
 import "./App.css";
 
 function App() {
-  return <SignUp />;
+  return <Routes />;
 }
 
 export default App;
